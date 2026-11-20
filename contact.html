@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Humble Project Management FZ LLC</title>
+  <meta name="description" content="Contact Humble Project Management FZ LLC for document clearing, travel, manpower recruitment and consultancy services in the UAE.">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <section class="page-header">
+    <div class="container">
+      <nav aria-label="breadcrumb"><ol class="breadcrumb mb-3"><li class="breadcrumb-item"><a href="index.html">Home</a></li><li class="breadcrumb-item active" aria-current="page">Contact</li></ol></nav>
+      <h1>Get In Touch</h1>
+      <p class="mb-0">Have a question or need a quote? Call, WhatsApp or send us a message — we usually reply within a few hours.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5 reveal">
+          <span class="eyebrow">Contact Details</span>
+          <h2 class="mb-4" style="font-size:clamp(1.6rem,3vw,2.1rem);font-weight:800">We're Here to Help</h2>
+          <div class="wa-box mb-4"><div class="d-flex align-items-center gap-3 mb-3"><i class="bi bi-whatsapp wa-box-icon"></i><div><h5 class="mb-0">Fastest reply on WhatsApp</h5><small>Tap a topic and your message is ready to send</small></div></div><div class="wa-chips"><a href="#" data-wa="Hello, I need help with visa / document clearing." target="_blank" rel="noopener" class="wa-chip"><i class="bi bi-file-earmark-text"></i> Visa / Documents</a><a href="#" data-wa="Hello, I need help with company formation / trade license." target="_blank" rel="noopener" class="wa-chip"><i class="bi bi-building"></i> Company Setup</a><a href="#" data-wa="Hello, I want to book travel / tickets / holiday package." target="_blank" rel="noopener" class="wa-chip"><i class="bi bi-airplane"></i> Travel Booking</a><a href="#" data-wa="Hello, I need to hire staff for my company." target="_blank" rel="noopener" class="wa-chip"><i class="bi bi-people"></i> Hire Staff</a><a href="#" data-wa="Hello, I am looking for a job in the UAE." target="_blank" rel="noopener" class="wa-chip"><i class="bi bi-briefcase"></i> Find a Job</a><a href="#" data-wa="Hello, I have a question." target="_blank" rel="noopener" class="wa-chip"><i class="bi bi-chat-dots"></i> Other Query</a></div></div>
+          <div class="contact-item"><div class="fi"><i class="bi bi-geo-alt"></i></div><div><h6>Office Address</h6><p data-site="address"></p></div></div>
+          <div class="contact-item"><div class="fi"><i class="bi bi-telephone"></i></div><div><h6>Call Us</h6><p><a href="#" data-tel data-site="phone"></a></p></div></div>
+          <div class="contact-item"><div class="fi" style="background:#25d366"><i class="bi bi-whatsapp"></i></div><div><h6>WhatsApp</h6><p><a href="#" data-wa target="_blank" rel="noopener">Chat with us instantly</a></p></div></div>
+          <div class="contact-item"><div class="fi"><i class="bi bi-envelope"></i></div><div><h6>Email</h6><p><a href="#" data-mail data-site="email"></a></p></div></div>
+          <div class="contact-item"><div class="fi"><i class="bi bi-clock"></i></div><div><h6>Working Hours</h6><p data-site="hours"></p></div></div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <div class="form-card">
+            <h3 class="mb-1">Send Us a Message</h3>
+            <p class="text-muted-2 mb-4">Fill out the form below and we'll get back to you as soon as possible.</p>
+            <form class="js-enquiry row g-3" data-title="Website Enquiry" novalidate>
+              <div class="col-md-6">
+                <label class="form-label" for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" data-label="Name" required>
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="phone">Phone / WhatsApp</label>
+                <input type="tel" class="form-control" id="phone" name="phone" data-label="Phone" required>
+                <div class="invalid-feedback">Please enter your phone number.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" data-label="Email">
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="service">Service Required</label>
+                <select class="form-select" id="service" name="service" data-label="Service" required>
+                  <option value="">Choose a service...</option>
+                  <option>Documents Clearing / Visa Services</option>
+                  <option>Company Formation / Trade License</option>
+                  <option>Travel &amp; Tourism</option>
+                  <option>Manpower / Hiring Staff</option>
+                  <option>Job Consultancy</option>
+                  <option>Project Management Consultancy</option>
+                  <option>Other</option>
+                </select>
+                <div class="invalid-feedback">Please choose a service.</div>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="message">Your Message</label>
+                <textarea class="form-control" id="message" name="message" data-label="Message" rows="5" required></textarea>
+                <div class="invalid-feedback">Please write a short message.</div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-wa"><i class="bi bi-whatsapp me-1"></i> Send via WhatsApp</button>
+                <div class="form-success"><i class="bi bi-check-circle-fill me-1"></i> Thank you! WhatsApp has opened with your message — just press send.</div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP: Business Village Block B, Port Saeed, Deira (near Clock Tower) -->
+  <section class="pb-5 mb-4">
+    <div class="container reveal">
+      <div class="map-wrap">
+        <iframe title="Office location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Business+Village+Block+B,+Port+Saeed,+Deira,+Dubai&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
